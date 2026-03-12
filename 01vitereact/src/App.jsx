@@ -1,11 +1,13 @@
 import Hello from './hello'
 
-function App() {
 
+function App() {
+  let username="HeyMeck is the User.";
   return (
       <>
       <Hello/>
-      <h2>Hello React with Vite || Hemant</h2>
+      {/* here username is an evaluated  expression or final expression */}
+      <h2>Hello React with Vite || Hemant. {username}</h2>
       </>
   )
 }
